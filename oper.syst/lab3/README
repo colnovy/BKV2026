@@ -1,0 +1,11 @@
+gcc -o init init.c
+gcc -o book book.c
+gcc -o view view.c
+
+./init
+
+./view
+
+./book 2 1 buy
+
+./book 2 1 return
